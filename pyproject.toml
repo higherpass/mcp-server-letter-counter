@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-server-count-letters"
+version = "0.1.0"
+dependencies = [
+    "mcp>=0.1.0",
+]
+
+[project.scripts]
+mcp-server-count-letters = "mcp_server_count_letters:main"
